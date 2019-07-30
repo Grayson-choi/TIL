@@ -1,0 +1,58 @@
+body, h1, h2, p, ul{
+    margin: 0;
+    padding: 0;
+}
+/* CSS 초기화 */
+
+h1, h2{
+    font-size: 100%;
+    font-weight: none;
+}
+
+li {
+   list-style-type: none; 
+}
+
+body{
+    
+}
+
+
+.header{
+    background-color: black;
+    color: white;
+    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
+}
+.wrapper{
+    width: 1040px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    
+}
+
+.header-icon-grid{
+    float: right;
+    display: inline;
+}
+.header-icon-grid li{
+    float:left;
+}
+.nav {
+    float:right;
+    font-size: 18px;
+}
+.nav li{
+    line-height: 92px;
+    float:left;
+    padding: 0px 18px;
+    
+}
+.nav li:last-child{
+    margin-right: 32px;
+}    

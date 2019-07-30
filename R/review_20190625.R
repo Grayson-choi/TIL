@@ -1,0 +1,52 @@
+install.packages("KoNLP")
+install.packages("rJava")
+
+library(tidyverse)
+library(KoNLP)
+library(reshape2)
+library(wordcloud2)
+library(tidygraph)
+library(ggraph)
+library(rJava)
+
+
+review_data<-read.csv("review_data.csv",header = T)
+review_data
+
+score1<-review_data %>% filter(score==1) 
+score2<-review_data %>% filter(score==2)
+score3<-review_data %>% filter(score==3)
+score4<-review_data %>% filter(score==4)
+score5<-review_data %>% filter(score==5)
+
+score5
+review_all <- str_replace_all(review_data$content, "\\W", " ")
+review_score5 <- str_replace_all(score5$content, "\\W"," ")
+review_score5
+
+review_all
+
+
+#### SimplePos09 를 이용한 품사 태깅 ####
+# N 체언: 명사, 대명사, 수사
+# P 용언: 동사, 형용사, 보조용언 
+
+# 사전을 정의하기
+useSejongDic()
+
+# 품사 태그 붙이기
+raw_score5 <- SimplePos09(review_score5) %>% melt() %>% select(3,1)
+raw_review_all <- SimplePos09(review_all) %>% melt() %>% select(3,1)
+
+#체언(N), 용언(P)에 해당하는 단어 추출
+
+#5점 평점
+score5_NP <- raw_score5 %>% 
+  mutate(extract = str_match(value, '([가-힣]+)/[NP]')[,2]) %>% 
+  filter(!is.na(extract))
+
+#모든 평점
+score5_NP <- raw_review_all %>% 
+  mutate(extract = str_match(value, '([가-힣]+)/[NP]')[,2]) %>% 
+  filter(!is.na(extract))
+

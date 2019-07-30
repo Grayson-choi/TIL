@@ -1,0 +1,196 @@
+body, h1, h2, p, ul{
+    margin: 0;
+    padding: 0;
+}
+/* CSS 초기화 */
+
+h1, h2{
+    font-size: 100%;
+    font-weight: none;
+}
+
+li {
+   list-style-type: none; 
+}
+
+body{
+    
+}
+
+.wrapper{
+
+
+}
+
+.header{
+    background-color: black;
+    color: white;
+    width: 1040px;
+    margin: auto;
+}
+.logo{
+    float: right
+}
+
+.header-icon{
+    float: right;
+}
+
+
+.header h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 72px;
+    color: coral;
+    text-align: center;
+}
+
+.header p{
+    padding-top: 35px;
+    color: #ddd;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 220px;
+}
+.intro{
+    background-color: floralwhite;
+    width: 1280px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.intro .line{
+    width: 10px;
+    height: 120px;
+    border-left: 2px solid coral;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    
+}
+.intro .intro-title{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 80px;
+    color: coral;
+    margin-bottom: 50px;
+}
+.intro p{
+    font-size: 25px;
+    font-family: serif;
+    
+}
+
+.intro .scroll{
+    font-size: 15px;
+    font-family: cursive;
+    color: #ddd;
+    margin-top: 70px;
+}
+
+
+.contents{
+    background-color:floralwhite;
+    width: 1280px;
+    margin: 0px auto 0px auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    
+    background-repeat: no-repeat;
+    background-position: 1100px center;
+}
+
+.member{
+    background-image: url(images/analyst.png);
+}
+
+
+.contents h2 {
+    color: dodgerblue;
+    margin-bottom: 20px;
+}
+
+.contents li {
+    border-left: 5px solid #ddd;
+    padding: 5px 0 3px 5px;
+}
+
+.contents li:hover {
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+.skill {
+ 
+    background-image: url(images/code.png);
+
+}
+
+
+.footer{
+    width: 1280px;
+    background-color: floralwhite;
+    margin: auto;
+    
+}
+.footer-list{
+    padding-left: 15px;
+    font-family: monospace;
+
+}
+.footer-title{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.footer .email{
+    height: 50px;
+    margin-left: 20px;
+    background-image: url(images/gmail.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px;
+    padding-left: 55px;
+    font-family: monospace;
+    font-size: 25px;
+    padding-bottom: 12px;
+    
+}
+.footer .email li{
+    padding-top: 15px;
+}
+
+.footer .phone{
+    height: 50px;
+    margin-left: 20px;
+    background-image: url(images/phone-receiver.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px;
+    padding-left: 55px;
+    font-family: monospace;
+    font-size: 25px;
+    padding-bottom: 12px;
+}
+
+.footer .phone li{
+    padding-top: 15px;
+}
+/*footer의 2줄을 가로로 한줄로 만드는 방법이 궁금합니다.*/
+/*중복되는 코드가 많은데 1개로 줄이는 방법이 궁금합니다.*/
+

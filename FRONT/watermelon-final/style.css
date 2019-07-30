@@ -1,0 +1,135 @@
+body, h1, h2, p {
+    margin: 0;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.cover {
+    background-image: url(images/watermelon-bg.png);    
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.cover h1 {
+    font-size: 8vw;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0.15em 0.25em;
+    line-height: 1;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 60px auto;
+    padding: 0 30px;
+}
+
+.section {
+    background-color: white;
+    margin-bottom: 100px;
+    padding: 50px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+.section h2 {
+    margin-bottom: 40px;
+    border-bottom: 10px solid;
+    letter-spacing: 0.1em;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+.section-contents {
+    display: inline-block;
+}
+
+.section-contents p {
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 480px;
+}
+
+.section-point {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin: 0 -200px;
+    transform: translateY(-50%);
+}
+
+.section.orange {
+    text-align: right;
+}
+
+.section.orange .section-contents p {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.section.orange .section-point {
+    right: auto;
+    left: 0;
+}
+
+.section.watermelon h2 {
+    color: orangered;
+    border-color: palegreen;
+}
+
+.section.orange h2 {
+    color: orange;
+    border-color: antiquewhite;
+}
+
+.section.kiwi h2 {
+    color: forestgreen;
+    border-color: sandybrown;
+}
+
+@media ( max-width: 960px ) {
+    .cover {
+        height: 100px;
+    }
+    .wrapper {
+        margin: 30px 0;
+    }
+    .section.orange,
+    .section {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .section-point {
+        display: none;
+    }
+    .section.orange .section-contents p,
+    .section-contents p {
+        float: none;
+        width: auto;
+        margin-bottom: 30px;
+        margin-left: 0;    
+        margin-right: 0;    
+    }
+}
+
+
+
+
+
+
+

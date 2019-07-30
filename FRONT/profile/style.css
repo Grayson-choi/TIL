@@ -1,0 +1,67 @@
+ul,h2 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: #999;
+}
+
+.wrapper {
+    background: #ddd;
+    margin: 0px auto;
+    width: 800px;
+}
+
+.header {
+    background-image: url(images/header-bg.png);
+    text-align: center;
+    height: 350px;
+}
+
+.header .profile {
+    margin-top: 90px;
+    border: 10px solid;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 10px white;
+}
+
+.header h1 {
+    color: white;
+}
+
+.header p {
+    color: white;
+}
+
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(images/icon-info.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.section h2 {
+    color: dodgerblue;
+    margin-bottom: 20px;
+}
+
+.section li {
+    border-left: 5px solid #ddd;
+    padding: 5px 0 3px 5px;
+}
+
+.section li:hover {
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+.footer {
+    background-color: #efefef;
+}
+
