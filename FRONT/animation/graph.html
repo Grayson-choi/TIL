@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>fill Graph</title>
+        <style>
+            body{
+                padding: 50px;                
+            }
+            .graph{
+                height: 40px;
+                background-color: #ddd;
+                border-radius: 40px;
+            }
+            .graph span{
+                display: block;
+/*                padding: 0 10px;*/
+                height: 40px;
+                width: 75%;
+                line-height: 40px;
+                text-align: right;
+                background-color: orange;
+                border-radius: 40px;
+                box-sizing: border-box;
+                color: white;
+/*                animation: stack 3s 1;*/
+                animation-name: stack;
+                animation-duration: 2s;
+                animation-iteration-count: 3;
+/*                animation-delay: 1s;*/
+/*                animation-direction: alternate;*/
+/*                animation-play-state: paused;*/
+/*                animation-timing-function: 1s;*/
+/*                animation-fill-mode: both;*/
+            }
+            
+            @keyframes stack{
+                0%{width: 0;color: rgba(255,255,255,0);}
+                40%{color: rgba(255,255,255,1);}
+                50%{background-color: yellow;}
+                100%{background-color: orange; width:75%;}
+            }
+             
+            }
+        </style>
+    </head>
+    <body>
+        <div class="graph stack1">
+            <span>75%</span>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,66 @@
+{% extends 'budget/base.html' %}
+{% block content %}
+
+<div class="container">
+    
+    <section class="section section-stats">
+        <div class="row">
+
+            <div class="col s12 m12 l4">
+                <div class="card-panel">
+                    <h6 class="bold">이번달 매출</h6>
+                    <h1 class="bold">{{project.budget}}</h1>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                    <div class="card-panel">
+                        <h6 class="bold">이번달 수입</h6>
+                        <h1 class="bold">10000원</h1>
+                    </div>
+                </div>
+            
+            <div class="col s12 m6 l4">
+                    <div class="card-panel">
+                        <h6 class="bold">이번달 비용</h6>
+                        <h1 class="bold">10000원</h1>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+    <section class="section section-expenses">
+        <div class="row">
+            <button class="btn waves-effect right">+ Add expenses</button>
+            <i class="material-icons white-text left">add_circle</i>
+        </div>
+    
+            <li>
+                    <div class="card-panel z-depth-0 expense">
+                        <div class="row">
+    
+                            <div class="col l3">
+                                <span class="title">{{expense.category.name}}</span>
+                            </div>
+    
+                            <div class="col l3">
+                                <span class="title">{{expense.title}}</span>
+                            </div>
+    
+                            <div class="col l2">
+                                <span class="title">{{expense.amount}}</span>
+                            </div>
+    
+                            <a href="">
+                                <i class="material-icons red-text right">close</i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            
+        
+    </section>
+</div>
+
+{% endblock %}

@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.section{
+    width: 500px;
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    
+}
+
+.section h1{
+    width: 130px;
+    color: coral;
+    margin: auto;
+    border-bottom: 5px solid coral; 
+}
+
+.section p{
+    margin: 30px;    
+}
+
+
+.section .section_footer{
+    padding: 20px;
+    background-color: #ddd;
+    color: gray;
+    
+}

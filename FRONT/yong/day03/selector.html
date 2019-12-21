@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>선택자 알아보기</title>
+        <style>
+/*태그 선택자 김씨,최씨 "그냥 이름 부르기" =*/ 
+/*클래스 선택자 지웅,뷔 "이름앞에 .붙이기" */
+/*아이디 선택자 주민등록번호 "이름앞에 #붙이기" */
+/*h3 span 띄워쓰기는 A 안에 B를 찾아라는뜻*/
+            span{
+                color: red;
+            }
+            .happy{
+                color: blue;
+            }
+            #last{
+                font-size: 50px;
+                font-family: monospace;
+                color: orange;
+            }
+            h3 span{
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>나는 <span>최지웅</span>입니다.</h1>
+        <p> 오늘도 <span class="happy">행복</span>하고 좋은 하루가 되었습니다.</p>
+        <h2> 평소에도 오늘처럼 <span class="happy">행복</span>하게 살고 싶습니다.</h2>
+        <p> <span class="happy" id="last">행복</span>이란 무엇일까요?</p>
+        <h3> <span>정답</span>을 알려주세요</h3>
+    </body>
+</html>

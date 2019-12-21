@@ -1,0 +1,65 @@
+body, html {
+
+    margin: 0px;
+    padding: 0px;
+}
+h1, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.ryan-image {
+  background-image: url(/images/RYAN_bg.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+/* Place text in the middle of the image */
+.ryan-text {
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Single Day', cursive;
+/*    이미지 가운데 글자 위치하도록*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+
+}
+
+.ryan-text h1{
+    
+    font-size: 3em;
+    letter-spacing: 0.45em;
+       
+}
+
+.ryan-text p{
+    font-family: fantasy;
+    line-height: 1em;
+    font-size: 3em;
+    letter-spacing: 0.43em;
+    
+}
+
+.ryan-text span{
+    color: orange;
+}
+
+.ryan-text a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    margin-top: 1em;
+    font-size: 1.2em;
+    border-radius: 16px;
+}
