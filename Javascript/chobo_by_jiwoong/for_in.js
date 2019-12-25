@@ -11,6 +11,9 @@ for (let i = 0; i < array.length; i++) {
 
 array.forEach(element => {
     element + " 멍청이";
-    console.log(array);
 });
 
+array.forEach(function(element){
+    element += " 멍청이";
+    console.log(element);
+});

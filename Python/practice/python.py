@@ -1,5 +1,7 @@
 x = "3"
 y = "7"
 
-print(x * y)
+x = int(x)
+y = int(y)
 
+print(x * y)

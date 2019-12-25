@@ -1,10 +1,4 @@
-let word = "My name is jiwoong choi"
-
-for(i=0;i<word.length;i++){
-
-}
-console.log(answer);
-
+let word = "My name is cjiwoong choi"
 
 for(i=0;i<word.length;i++){
     if(word[i] === "c"){
@@ -16,3 +10,6 @@ for(i=0;i<word.length;i++){
 }
 
 console.log(answer);
+
+
+
