@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+<meta name="title" content="[##_page_title_##] :: [##_title_##]" />
+<meta name="description" Content="[##_desc_##]" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="theme-color" content="#ffffff" />
+<title>[##_page_title_##]</title>
+<link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" />
+<link rel="shortcut icon" href="data:;base64,iVBORw0KGgo=" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-full.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/solid.min.css" />
+ <link href="./images/style.1.css" rel="stylesheet"><link href="./style.css" rel="stylesheet">
+
+	</head>
+	<body id="[##_body_id_##]">
+		<s_t3>
+			<div id="app" :class="{ active: open }" v-cloak>
+				<!-- 사이드바 & 헤더 -->
+				<aside id="drawer">
+					<!-- 정보 -->
+<div class="sidebarElement blogInfo">
+	<h1><a href="[##_blog_link_##]">[##_title_##]</a></h1>
+	<div class="blogDesc">[##_desc_##]</div>
+</div>
+
+
+<!-- 카테고리 메뉴 -->
+<nav class="sidebarElement categoryMenu">
+	<h3>CATEGORIES</h3>
+	 [##_category_list_##] 
+</nav>
+
+
+<!-- 블로그 메뉴 -->
+<div class="sidebarElement">
+	<h3>BLOG MENU</h3>
+	 [##_blog_menu_##] 
+</div>
+
+
+<s_sidebar>
+	<s_sidebar_element>
+		<!-- 검색 -->
+		<div class="sidebarElement search">
+	<s_search>
+		<a-input-search default-value="[##_search_text_##]" placeholder="검색..." @search="onSearch"></a-input-search>
+	</s_search>
+</div>
+
+	</s_sidebar_element>
+
+	<s_sidebar_element>
+		<!-- 랜덤태그 -->
+		<div class="sidebarElement tagbox">
+	<h3>TAG CLOUD</h3>
+	<div>
+		
+		<s_random_tags>
+			<a href="[##_tag_link_##]" class="[##_tag_class_##]">
+				<a-tag>[##_tag_name_##]</a-tag>
+			</a>
+		</s_random_tags>
+		
+	</div>
+</div>
+
+	</s_sidebar_element>
+
+	<s_sidebar_element>
+		<!-- 방문자수 -->
+		<div class="sidebarElement counter">
+	<h3>VISITOR</h3>
+	<div class="total">
+		<h4>[##_count_total_##]</h4>
+	</div>
+	<div class="today">Today : [##_count_today_##]</div>
+	<div class="yesterday">Yesterday : [##_count_yesterday_##]</div>
+</div>
+
+	</s_sidebar_element>
+
+	<s_sidebar_element>
+		<!-- 최근 공지사항 -->
+		<s_rct_notice>
+	<div class="sidebarElement recentNotice">
+		<h3>RECENT NOTICE</h3>
+		<ul class="list">
+			
+			<s_rct_notice_rep>
+				<li>
+					<a href="[##_notice_rep_link_##]">
+						[##_notice_rep_title_##]
+					</a>
+				</li>
+			</s_rct_notice_rep>
+			
+		</ul>
+	</div>
+</s_rct_notice>
+
+	</s_sidebar_element>
+
+	<s_sidebar_element>
+		<!-- 인기글 -->
+		<div class="sidebarElement popularPost">
+	<h3>POPULAR POSTS</h3>
+	<ul class="list">
+		
+		<s_rctps_popular_rep>
+			<li>
+				<a href="[##_rctps_rep_link_##]">[##_rctps_rep_title_##]</a>
+			</li>
+		</s_rctps_popular_rep>
+		
+	</ul>
+</div>
+
+	</s_sidebar_element>
+
+	<s_sidebar_element>
+		<!-- 최근글 -->
+		<div class="sidebarElement recentPost">
+	<h3>RECENT POSTS</h3>
+	<ul class="list">
+		
+		<s_rctps_rep>
+			<li>
+				<a href="[##_rctps_rep_link_##]">[##_rctps_rep_title_##]</a>
+			</li>
+		</s_rctps_rep>
+		
+	</ul>
+</div>
+
+	</s_sidebar_element>
+
+	<s_sidebar_element>
+		<!-- 최근댓글 -->
+		<div class="sidebarElement recentComment">
+	<h3>RECENT COMMENTS</h3>
+	<ul class="list" id="recentComments">
+		
+		<s_rctrp_rep>
+			<li>
+				<a href="[##_rctrp_rep_link_##]">[##_rctrp_rep_desc_##]</a>
+			</li>
+		</s_rctrp_rep>
+		
+	</ul>
+</div>
+
+	</s_sidebar_element>
+</s_sidebar>
+
+				</aside>
+
+				<!-- 사이드바 버튼 -->
+				<button
+					class="hamburger hamburger--slider"
+					:class="{ 'is-active': open }"
+					aria-label="Menu"
+					aria-controls="drawer"
+					@click="toggleOpen"
+				>
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+
+				<main id="main">
+					<div class="hover"></div>
+
+					<!-- 본문 -->
+					<section id="content">
+						
+<!-- 홈 커버 -->
+<s_cover_group>
+	<s_cover_rep>
+		<s_cover name="featured">
+			<div class="featured">
+				
+				<s_cover_item>
+					<a-card hoverable>
+						<s_cover_item_thumbnail>
+							<img slot="cover" src="[##_cover_item_thumbnail_##]" />
+						</s_cover_item_thumbnail>
+						<a-card-meta title="[##_cover_item_title_##]">
+							<template slot="description">
+								<p>[##_cover_item_summary_##]</p>
+								<a href="[##_cover_item_url_##]" class="ant-btn ant-btn-default">
+									<span>자세히 보기</span>
+								</a>
+							</template>
+						</a-card-meta>
+					</a-card>
+				</s_cover_item>
+				
+			</div>
+		</s_cover>
+		<s_cover name="thumbnail-list">
+			<div class="thumbnail-list">
+				<h3>[##_cover_title_##]</h3>
+				
+				<a-row :gutter="16" type="flex">
+					<s_cover_item>
+						<a-col :xs="24" :sm="12" :md="8" :lg="12" :xl="8">
+							<a href="[##_cover_item_url_##]">
+								<a-card hoverable>
+									<s_cover_item_thumbnail>
+										<img slot="cover" src="//i1.daumcdn.net/thumb/C264x200/?fname=[##_cover_item_thumbnail_##]" />
+									</s_cover_item_thumbnail>
+									<a-card-meta title="[##_cover_item_title_##]">
+										<s_cover_item_article_info>
+											<template slot="description">
+												[##_cover_item_category_##] · [##_cover_item_simple_date_##]
+											</template>
+										</s_cover_item_article_info>
+									</a-card-meta>
+								</a-card>
+							</a>
+						</a-col>
+					</s_cover_item>
+				</a-row>
+				
+			</div>
+		</s_cover>
+	</s_cover_rep>
+</s_cover_group>
+
+
+<!-- 리스트 (카테고리, 검색, 태그) -->
+<s_list>
+	<div class="inner-content categoryList">
+		<h2>[##_list_conform_##]<span>([##_list_count_##])</span></h2>
+		<a-list item-layout="horizontal" :locale="{ emptyText: '글이 없습니다' }">
+			
+			<s_list_rep>
+				<a-list-item>
+					<a href="[##_list_rep_link_##]">
+						[##_list_rep_title_##]
+						<span class="cnt">[##_list_rep_rp_cnt_##]</span>
+					</a>
+					<div class="date">[##_list_rep_regdate_##]</div>
+				</a-list-item>
+			</s_list_rep>
+			
+		</a-list>
+	</div>
+</s_list>
+
+
+<!-- 글 -->
+<s_article_rep>
+	<s_permalink_article_rep>
+		<div class="inner-content">
+			<div class="article">
+	
+	<h2 class="title">[##_article_rep_title_##]</h2>
+	<div class="info">
+		<a href="[##_article_rep_category_link_##]" class="category">[##_article_rep_category_##]</a>
+		<span>·</span>
+		<span class="date">[##_article_rep_date_##]</span>
+	</div>
+	<s_ad_div>
+		<div class="admin">
+			<a href="[##_s_ad_m_link_##]">수정</a>
+			<a-divider type="vertical"></a-divider>
+			<a href="#" onclick="[##_s_ad_s2_onclick_##]">[##_s_ad_s2_label_##]</a>
+			<a-divider type="vertical"></a-divider>
+			<a href="#" onclick="[##_s_ad_d_onclick_##]">삭제</a>
+		</div>
+	</s_ad_div>
+	<div class="article-content">[##_article_rep_desc_##]</div>
+	<s_tag_label>
+		<div class="tag-trail">
+			<h3>태그</h3>
+			[##_tag_label_rep_##]
+		</div>
+	</s_tag_label>
+	
+</div>
+ <s_article_related>
+	<div class="related">
+		
+		<h3>관련글</h3>
+		<a-row :gutter="8" type="flex">
+			<s_article_related_rep>
+				<a-col class="[##_article_related_rep_type_##]" :xs="12" :sm="8" :md="6">
+					<a href="[##_article_related_rep_link_##]" class="link" <s_article_related_rep_thumbnail>style="background-image:url('[##_article_related_rep_thumbnail_link_##]') !important"</s_article_related_rep_thumbnail>>
+						<span class="bg"></span>
+						<span class="txt">[##_article_related_rep_title_##]</span>
+					</a>
+				</a-col>
+			</s_article_related_rep>
+		</a-row>
+		
+	</div>
+</s_article_related>
+ <div class="comments">
+	
+	<s_rp>
+		<s_rp_input_form>
+			<div class="commentWrite">
+				<s_rp_member>
+					<div class="options">
+						<s_rp_guest>
+							<span class="ant-input-affix-wrapper">
+								<span class="ant-input-prefix">
+									<i class="anticon anticon-user">
+										<svg
+											viewBox="64 64 896 896"
+											data-icon="user"
+											width="1em"
+											height="1em"
+											fill="currentColor"
+											aria-hidden="true"
+											focusable="false"
+											class=""
+										>
+											<path
+												d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+											></path>
+										</svg>
+									</i>
+								</span>
+								<input type="text" name="[##_rp_input_name_##]" value="[##_guest_name_##]" class="ant-input" placeholder="이름" />
+							</span>
+							<span class="ant-input-affix-wrapper">
+								<span class="ant-input-prefix">
+									<i class="anticon anticon-lock">
+										<svg
+											viewBox="64 64 896 896"
+											data-icon="lock"
+											width="1em"
+											height="1em"
+											fill="currentColor"
+											aria-hidden="true"
+											focusable="false"
+											class=""
+										>
+											<path
+												d="M832 464h-68V240c0-70.7-57.3-128-128-128H388c-70.7 0-128 57.3-128 128v224h-68c-17.7 0-32 14.3-32 32v384c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V496c0-17.7-14.3-32-32-32zM332 240c0-30.9 25.1-56 56-56h248c30.9 0 56 25.1 56 56v224H332V240zm460 600H232V536h560v304zM484 701v53c0 4.4 3.6 8 8 8h40c4.4 0 8-3.6 8-8v-53a48.01 48.01 0 1 0-56 0z"
+											></path>
+										</svg>
+									</i>
+								</span>
+								<input type="password" name="[##_rp_input_password_##]" class="ant-input" placeholder="비밀번호" maxlength="8" />
+							</span>
+						</s_rp_guest>
+						<div class="custom-checkbox">
+							<input type="checkbox" name="[##_rp_input_is_secret_##]" id="secret" />
+							<label for="secret">비밀글</label>
+						</div>
+					</div>
+				</s_rp_member>
+				<textarea name="[##_rp_input_comment_##]" placeholder="댓글 내용" class="ant-input" rows="3"></textarea>
+				<button type="submit" class="ant-btn ant-btn-primary" onclick="[##_rp_onclick_submit_##]">
+					<span>등록</span>
+				</button>
+			</div>
+		</s_rp_input_form>
+		<s_rp_container>
+			<div class="commentList">
+				<ol>
+					<s_rp_rep>
+						<li id="[##_rp_rep_id_##]">
+							<div class="[##_rp_rep_class_##]">
+								<div class="header">
+									<span class="name">[##_rp_rep_name_##]</span>
+									<span class="date"> [##_rp_rep_date_##]</span>
+									<span class="spacer"></span>
+									<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">수정/삭제</a>
+									<a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write">답글</a>
+								</div>
+								<p class="content">[##_rp_rep_desc_##]</p>
+							</div>
+							<s_rp2_container>
+								<ul>
+									<s_rp2_rep>
+										<li id="[##_rp_rep_id_##]">
+											<div class="[##_rp_rep_class_##]">
+												<div class="header">
+													<span class="name">[##_rp_rep_name_##]</span>
+													<span class="date"> [##_rp_rep_date_##]</span>
+													<span class="spacer"></span>
+													<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">수정/삭제</a>
+												</div>
+												<p class="content">[##_rp_rep_desc_##]</p>
+											</div>
+										</li>
+									</s_rp2_rep>
+								</ul>
+							</s_rp2_container>
+						</li>
+					</s_rp_rep>
+				</ol>
+			</div>
+		</s_rp_container>
+	</s_rp>
+	
+</div>
+
+		</div>
+	</s_permalink_article_rep>
+</s_article_rep>
+
+
+<!-- 보호글 -->
+<s_article_protected>
+	<s_permalink_article_rep>
+		<div class="inner-content">
+			<div class="article protected">
+				<h2 class="title">[##_article_rep_title_##]</h2>
+				<div class="info">
+					<a href="[##_article_rep_category_link_##]" class="category">[##_article_rep_category_##]</a>
+					<span>·</span>
+					<span class="date">[##_article_rep_date_##]</span>
+				</div>
+				<div class="article-content">
+					<p>보호되어 있는 글입니다.</p>
+					<p>
+						<a-input
+							type="password"
+							maxlength="16"
+							placeholder="비밀번호"
+							id="[##_article_password_##]"
+							name="[##_article_password_##]"
+							@keyup.enter="reloadEntry('[##_article_dissolve_##]')"
+							style="width: 250px;"
+						></a-input>
+					</p>
+				</div>
+			</div>
+		</div>
+	</s_permalink_article_rep>
+</s_article_protected>
+
+
+<!-- 페이지 -->
+<s_page_rep>
+	<s_permalink_article_rep>
+		<div class="inner-content">
+			<div class="article page">
+				<h2 class="title">[##_article_rep_title_##]</h2>
+				<div class="info">
+					<span class="date">[##_article_rep_date_##]</span>
+				</div>
+				<div class="article-content">[##_article_rep_desc_##]</div>
+			</div>
+		</div>
+	</s_permalink_article_rep>
+</s_page_rep>
+
+
+<!-- 공지사항 -->
+<s_notice_rep>
+	<s_permalink_article_rep>
+		<div class="inner-content">
+			<div class="article notice">
+				<h2 class="title">[##_notice_rep_title_##]</h2>
+				<div class="info">
+					<span class="date">[##_notice_rep_date_##]</span>
+				</div>
+				<div class="article-content">[##_notice_rep_desc_##]</div>
+			</div>
+		</div>
+	</s_permalink_article_rep>
+</s_notice_rep>
+
+
+<!-- 태그로그 -->
+<s_tag>
+	<div class="inner-content taglog">
+		<h2>태그 클라우드</h2>
+		<div>
+			
+			<s_tag_rep>
+				<a href="[##_tag_link_##]" class="[##_tag_class_##]">
+					<a-tag>[##_tag_name_##]</a-tag>
+				</a>
+			</s_tag_rep>
+			
+		</div>
+	</div>
+</s_tag>
+
+
+<!-- 방명록 -->
+<s_guest>
+	<div class="inner-content guestbook">
+		<h2>방명록</h2>
+		<s_guest_input_form>
+			<div class="guestWrite">
+				<s_guest_member>
+					<div class="options">
+						<s_guest_form>
+							<span class="ant-input-affix-wrapper">
+								<span class="ant-input-prefix">
+									<i class="anticon anticon-user">
+										<svg
+											viewBox="64 64 896 896"
+											data-icon="user"
+											width="1em"
+											height="1em"
+											fill="currentColor"
+											aria-hidden="true"
+											focusable="false"
+											class=""
+										>
+											<path
+												d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"
+											></path>
+										</svg>
+									</i>
+								</span>
+								<input type="text" name="[##_guest_input_name_##]" value="[##_guest_name_##]" class="ant-input" placeholder="이름" />
+							</span>
+							<span class="ant-input-affix-wrapper">
+								<span class="ant-input-prefix">
+									<i class="anticon anticon-lock">
+										<svg
+											viewBox="64 64 896 896"
+											data-icon="lock"
+											width="1em"
+											height="1em"
+											fill="currentColor"
+											aria-hidden="true"
+											focusable="false"
+											class=""
+										>
+											<path
+												d="M832 464h-68V240c0-70.7-57.3-128-128-128H388c-70.7 0-128 57.3-128 128v224h-68c-17.7 0-32 14.3-32 32v384c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V496c0-17.7-14.3-32-32-32zM332 240c0-30.9 25.1-56 56-56h248c30.9 0 56 25.1 56 56v224H332V240zm460 600H232V536h560v304zM484 701v53c0 4.4 3.6 8 8 8h40c4.4 0 8-3.6 8-8v-53a48.01 48.01 0 1 0-56 0z"
+											></path>
+										</svg>
+									</i>
+								</span>
+								<input
+									type="password"
+									name="[##_guest_input_password_##]"
+									value="[##_guest_password_##]"
+									placeholder="비밀번호"
+									maxlength="8"
+									class="ant-input"
+								/>
+							</span>
+						</s_guest_form>
+						<div class="custom-checkbox">
+							<input type="checkbox" name="[##_rp_input_is_secret_##]" id="secret" />
+							<label for="secret">비밀글</label>
+						</div>
+					</div>
+				</s_guest_member>
+				<textarea name="[##_guest_textarea_body_##]" placeholder="댓글 내용" class="ant-input" rows="3"></textarea>
+				<button type="submit" class="ant-btn ant-btn-primary" onclick="[##_guest_onclick_submit_##]">
+					<span>등록</span>
+				</button>
+			</div>
+		</s_guest_input_form>
+		<s_guest_container>
+			<div class="guestList">
+				<ol>
+					<s_guest_rep>
+						<li id="[##_guest_rep_id_##]">
+							<div class="[##_guest_rep_class_##]">
+								<div class="header">
+									<span class="name">[##_guest_rep_name_##]</span>
+									<span class="date"> [##_guest_rep_date_##]</span>
+									<span class="spacer"></span>
+									<a href="#" onclick="[##_guest_rep_onclick_delete_##]" class="modify">수정/삭제</a>
+									<a href="#" onclick="[##_guest_rep_onclick_reply_##]" class="write">답글</a>
+								</div>
+								<p class="content">[##_guest_rep_desc_##]</p>
+							</div>
+							<s_guest_reply_container>
+								<ul>
+									<s_guest_reply_rep>
+										<li id="[##_guest_rep_id_##]">
+											<div class="[##_guest_rep_class_##]">
+												<div class="header">
+													<span class="name">[##_guest_rep_name_##]</span>
+													<span class="date"> [##_guest_rep_date_##]</span>
+													<span class="spacer"></span>
+													<a href="#" onclick="[##_guest_rep_onclick_delete_##]" class="modify">수정/삭제</a>
+												</div>
+												<p class="content">[##_guest_rep_desc_##]</p>
+											</div>
+										</li>
+									</s_guest_reply_rep>
+								</ul>
+							</s_guest_reply_container>
+						</li>
+					</s_guest_rep>
+				</ol>
+			</div>
+		</s_guest_container>
+	</div>
+</s_guest>
+ 
+
+<!-- 페이징 -->
+<s_paging>
+	<div class="paging">
+		
+		<a [##_prev_page_##] class="[##_no_more_prev_##] prev"> <a-icon type="left"></a-icon> 이전 </a>
+		<span class="numbox">
+			<s_paging_rep>
+				<a [##_paging_rep_link_##] class="num">[##_paging_rep_link_num_##]</a>
+			</s_paging_rep>
+		</span>
+		<a [##_next_page_##] class="[##_no_more_next_##] next">다음 <a-icon type="right"></a-icon></a>
+		
+	</div>
+</s_paging>
+
+
+					</section>
+
+					<!-- footer -->
+					<footer id="footer">Copyright &copy; Nana</footer>
+				</main>
+			</div>
+			<script src="./images/bundle.1.js"></script><script src="./images/bundle.js"></script>
+		</s_t3>
+	</body>
+</html>
