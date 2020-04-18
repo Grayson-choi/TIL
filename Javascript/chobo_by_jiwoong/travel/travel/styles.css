@@ -1,0 +1,27 @@
+#LOGO{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 80px;}
+
+#bar{ 
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+#bar a { 
+    text-decoration: none;
+    color: #58595B;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+
+.homeimg {
+    display: block;
+    margin-left:auto;
+    margin-right:auto; 
+}

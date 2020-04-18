@@ -2,17 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b4cbd28-7b20-4ac0-af6c-04326baf5e9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/find.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/find.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/for_in.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/for_in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/function.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/max_number.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/max_number.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/practice3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basic/for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basic/while.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_basic/while_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taling_crawling/for_in_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taling_crawling/if.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taling_crawling/map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taling_crawling/turtle_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taling_crawling/나무그림.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taling_crawling/모듈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taling_crawling/터틀런.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taling_crawling/파일_입출력_테스트.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/problem_clap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/problem_clap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/problem_findKim.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/problem_findKim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/star.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Javascript/chobo_by_jiwoong/star.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oop_03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/lottery.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/lottery.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice/python.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datascience/Untitled Folder/.ipynb_checkpoints/Python 라이브러리-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../datascience/Untitled Folder/.ipynb_checkpoints/Python 라이브러리-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datascience/Untitled Folder/Python 라이브러리.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../datascience/Untitled Folder/Python 라이브러리.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datascience/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../datascience/Untitled.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../datascience/data_for_datascience" beforeDir="false" afterPath="$PROJECT_DIR$/../datascience/data_for_datascience" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machineLearning/Machine Learning A-Z Data/Part 1 - Data Preprocessing/data_preprocessing_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machineLearning/Machine Learning A-Z Data/Part 1 - Data Preprocessing/data_preprocessing_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../machineLearning/content/머신러닝 공부.md" beforeDir="false" afterPath="$PROJECT_DIR$/../machineLearning/content/머신러닝 공부.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machineLearning/Machine Learning A-Z Data/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/categorical_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machineLearning/Machine Learning A-Z Data/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/categorical_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machineLearning/Machine Learning A-Z Data/Part 2 - Regression/Section 5 - Multiple Linear Regression/Multiple_Linear_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machineLearning/Machine Learning A-Z Data/Part 2 - Regression/Section 5 - Multiple Linear Regression/Multiple_Linear_Regression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +37,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/python.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_basic/for.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/파이썬의 변수(강한 타입, Immutable vs Mutable, Class vs Instance).md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-922" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taling_crawling/if.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state>
+              <caret selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taling_crawling/for_in_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taling_crawling/파일_입출력_테스트.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taling_crawling/모듈.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taling_crawling/turtle_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taling_crawling/나무그림.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taling_crawling/터틀런.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1920">
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+              <folding>
+                <element signature="e#12#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taling_crawling/map.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -61,13 +157,28 @@
         <option value="$PROJECT_DIR$/OOP/Unit1/clock.py" />
         <option value="$PROJECT_DIR$/OOP/Unit1/menuitem.py" />
         <option value="$PROJECT_DIR$/practice/python.py" />
+        <option value="$PROJECT_DIR$/practice/lottery.py" />
+        <option value="$PROJECT_DIR$/practice/practice3.py" />
+        <option value="$PROJECT_DIR$/python_basic/while.py" />
+        <option value="$PROJECT_DIR$/python_basic/while_inpuy.py" />
+        <option value="$PROJECT_DIR$/python_basic/while_input.py" />
+        <option value="$PROJECT_DIR$/python_basic/for.py" />
+        <option value="$PROJECT_DIR$/taling_crawling/if.py" />
+        <option value="$PROJECT_DIR$/taling_crawling/for_in_list.py" />
+        <option value="$PROJECT_DIR$/taling_crawling/파일_입출력_테스트.py" />
+        <option value="$PROJECT_DIR$/taling_crawling/모듈.py" />
+        <option value="$PROJECT_DIR$/taling_crawling/turtle_test.py" />
+        <option value="$PROJECT_DIR$/taling_crawling/나무그림.py" />
+        <option value="$PROJECT_DIR$/taling_crawling/터틀런.py" />
+        <option value="$PROJECT_DIR$/taling_crawling/지도.py" />
+        <option value="$PROJECT_DIR$/taling_crawling/map.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="203" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -85,7 +196,7 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="taling_crawling" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,8 +227,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.python">
-    <configuration name="clock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.지도">
+    <configuration name="모듈" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,11 +236,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Unit1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/taling_crawling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Unit1/clock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/taling_crawling/모듈.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gamecharacter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="지도" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +257,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Unit1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/taling_crawling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Unit1/gamecharacter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/taling_crawling/map.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +270,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="post" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="for_in_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,11 +278,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP/Unit1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/taling_crawling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Unit1/post.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/taling_crawling/for_in_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="turtle_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,11 +299,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/taling_crawling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/python.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/taling_crawling/turtle_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +312,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simplecalculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="while_input" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,11 +320,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_basic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/Unit1/simplecalculator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_basic/while_input.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.python" />
-        <item itemvalue="Python.clock" />
-        <item itemvalue="Python.post" />
-        <item itemvalue="Python.gamecharacter" />
-        <item itemvalue="Python.simplecalculator" />
+        <item itemvalue="Python.지도" />
+        <item itemvalue="Python.turtle_test" />
+        <item itemvalue="Python.모듈" />
+        <item itemvalue="Python.for_in_list" />
+        <item itemvalue="Python.while_input" />
       </list>
     </recent_temporary>
   </component>
@@ -246,26 +357,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="720" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.39473686" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17002882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Python Console" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32969433" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49927953" visible="true" weight="0.32898173" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50072044" side_tool="true" weight="0.32898173" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.47780678" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Run" internal_type="SLIDING" order="3" weight="0.65960914" />
+      <window_info anchor="right" id="Run" internal_type="SLIDING" order="3" weight="0.31772333" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -304,10 +414,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oop_03/example03_b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop_03/example05.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop_03/garon_example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/practice/python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="1696">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/lottery_driver.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop_03/example03.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/practice3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basic/while_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python and Algorithmic Thinking for the Complete Beginner/Chapter 2 파이썬.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop_03/example04.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basic/closure.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/palindrome.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basic/while.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/lottery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1888">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/python2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_basic/for.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/파이썬의 변수(강한 타입, Immutable vs Mutable, Class vs Instance).md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-922" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taling_crawling/if.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taling_crawling/for_in_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taling_crawling/파일_입출력_테스트.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taling_crawling/모듈.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taling_crawling/turtle_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taling_crawling/나무그림.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taling_crawling/터틀런.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+          <folding>
+            <element signature="e#12#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taling_crawling/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

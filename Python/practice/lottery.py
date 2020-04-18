@@ -2,6 +2,7 @@ from random import randint
 
 # 무작위로 정렬된 1 - 45 사이의 숫자 여섯개 뽑기
 
+
 def generate_numbers():
     number = []
     while len(number) < 6:
