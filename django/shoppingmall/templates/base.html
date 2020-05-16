@@ -28,11 +28,12 @@
       </li>
 
       <li class="nav-item active">
-        <a class="nav-link btn btn-outline-success" href="#">Cart
+        <a class="nav-link btn btn-outline-success" href="{% url 'cart:detail' %}">Cart
+<!--            {{cart}}-->
             {% if cart|length > 0%}
-            $ {{cart.get_product_total}} with {{cart|length}}
+                $ {{cart.get_product_total}} with {{cart|length}} items
             {% else %}
-            : Empty
+                : Empty
             {% endif %}
         </a>
       </li>

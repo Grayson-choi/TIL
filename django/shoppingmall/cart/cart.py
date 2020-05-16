@@ -62,4 +62,8 @@ class Cart:
         self.session[settings.CART_ID] = {}
 
     def get_product_total(self):
-        return sum(Decimal(item['price'] * item['quantity']) for item in self.cart.values())
+        # for item in self.cart.values():
+        #     print(item['price'])
+        #     print(type(item['quantity']))
+        #     print(type(Decimal(item['price'])))
+        return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())

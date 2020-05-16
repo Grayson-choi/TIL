@@ -1,5 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Category,Product
+from cart.cart import Cart
+
+from IPython import embed
 
 # Create your views here.
 
@@ -9,6 +12,14 @@ def product_in_category(request, category_slug=None):
     categories = Category.objects.all()
 
     products = Product.objects.filter(available_display=True)
+    cart = Cart(request)
+    # for product in cart:
+    #     product['quantity_form'] = AddProductForm(initial={
+    #         'quantity': product['quantity'],
+    #         'is_update': True
+    #
+    #     })
+    # embed()
 
     if category_slug:
         current_category = get_object_or_404(Category, slug=category_slug)
@@ -19,7 +30,8 @@ def product_in_category(request, category_slug=None):
     context = {
         'current_category': current_category,
         'categories': categories,
-        'products': products
+        'products': products,
+        'cart': cart
     }
 
     return render(request, 'shop/list.html', context)

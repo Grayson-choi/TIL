@@ -17,13 +17,16 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from shop.views import product_in_category
 
 
 urlpatterns = [
-    path('cart/',include('cart.urls')),
+    path('', product_in_category),
+
     path('admin/', admin.site.urls),
-    path('', include('shop.urls')),
+    path('shop/', include('shop.urls')),
     path('accounts/', include('allauth.urls')),
+    path('cart/', include('cart.urls')),
 
 ]
 

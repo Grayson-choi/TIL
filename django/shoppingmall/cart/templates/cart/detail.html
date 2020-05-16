@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load static %}
+
 
 {% block title %}
 장바구니
@@ -23,7 +23,7 @@
       <tr>
         <th scope="row">
           <a href="{{ product.get_absolute_url }}">
-            <img src="{{ product.image_url|default_if_none:'#' }}" class="img-thumb-nail">
+            <img src="{{ product.image.url|default_if_none:'#' }}" class="img-thumb-nail" width="100px">
           </a>
         </th>
         <td>{{ product.name }}</td>
