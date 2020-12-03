@@ -22,7 +22,7 @@ from shop.views import product_in_category
 
 urlpatterns = [
     path('', product_in_category),
-
+    path('billing/', include('billing.urls')),
     path('admin/', admin.site.urls),
     path('shop/', include('shop.urls')),
     path('accounts/', include('allauth.urls')),

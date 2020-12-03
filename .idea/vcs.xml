@@ -3,7 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/datascience/data_for_datascience" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django/intshop_dj" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/machineLearning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/cod" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/project/congress_election" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/project/wg_elec" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ruby/project" vcs="Git" />
