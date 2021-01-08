@@ -14,10 +14,10 @@ import re
 
 
 # 네이버 계정 및 앱 정보
-naver_id = "784wldnd" #네이버 아이디
-naver_pw = "chlwldnd1!" #네이버 비밀번호
-naver_cid = "aYTsvZMKlGN5WlK2XRDI" #클라이언트 아이디
-naver_csec = "6fn4JXF_rn" #클라이언트 시크릿
+naver_id = os.environ.get("NAVER_ID") #네이버 아이디
+naver_pw = os.environ.get("NAVER_PW") #네이버 비밀번호
+naver_cid = os.environ.get("NAVER_CID") #클라이언트 아이디
+naver_csec = os.environ.get("NAVER_CSEC") #클라이언트 시크릿
 
 naver_redirect = "http://127.0.0.1:8000/" #리다이렉트 URI -> 아무거나 상관없음
 

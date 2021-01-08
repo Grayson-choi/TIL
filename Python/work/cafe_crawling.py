@@ -11,6 +11,7 @@ import datetime
 import os
 
 
+
 from bs4 import BeautifulSoup
 from requests import get
 from selenium import webdriver
@@ -21,13 +22,13 @@ def get_naver_token():
     chromedriver_path = os.environ.get('/Users/jw/Desktop/study/Python/work/chromedriver')
     chromedriver_path = DRIVER_DIR
     print(chromedriver_path )
-    naver_cid = "aYTsvZMKlGN5WlK2XRDI"
-    naver_csec = "6fn4JXF_rn"
+    naver_cid = os.environ.get('NAVER_CID')
+    naver_csec = os.environ.get("NAVER_CSEC")
     naver_redirect = "http://127.0.0.1:8000/"
     driver = webdriver.Chrome(DRIVER_DIR)
     driver.get('https://nid.naver.com/nidlogin.login')
-    id = '784wldnd'  #ID  직접 입력
-    pw = 'chlwldnd1!' #비번은 직접 입력
+    id = os.environ.get("NAVER_ID")  #ID  직접 입력
+    pw = os.environ.get("NAVER_PW") #비번은 직접 입력
     driver.execute_script("document.getElementsByName('id')[0].value=\'" + id + "\'")
     # time.sleep(1)
     driver.execute_script("document.getElementsByName('pw')[0].value=\'" + pw + "\'")
